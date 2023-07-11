@@ -1,0 +1,88 @@
+#gameboard{
+    width: 624px;
+    height: 624px;
+    background-color: rgb(124, 121, 121);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.square{
+    height: 78px;
+    width: 78px;
+    position: relative;
+}
+beige{
+    background-color: rgb(110, 110 98);
+}
+.brown{
+    background-color: #772910;
+}
+.square svg{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+}
+path{
+    position: relative;
+    z-index: -10;
+}
+.piece{
+    position: relative;
+    z-index: 9;
+}
+.black{
+    fill:rgb(3, 3, 3);
+}
+.white{
+    fill:white;
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: #722F37;
+    text-align: center;
+    margin-top: -25rem;
+    margin-right: -20rem;
+}
+body{
+    background-color:  	#C19A6B;
+    align-items: center;
+    justify-self: center;
+}
+div{
+    size: 100%;
+}
+@media (max-width:900px)  {
+    #gameboard{
+        width: 240px;
+        height: 240px;
+        background-color: rgb(124, 121, 121);
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+    } 
+    .square{
+        height: 30px;
+        width: 30px;
+        position: relative;
+    }
+    .square svg{
+        height: 20px;
+        width: 20px;
+        margin: 5px;
+        position: relative;
+        z-index: -9;
+    }
+    p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: #722F37;
+       
+        margin-top: 5rem;
+        margin-right: 2rem;
+        
+        
+    }
+}
